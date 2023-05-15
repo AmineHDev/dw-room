@@ -43,7 +43,7 @@ export default function NextPatientView({waitingRooms}) {
         </div>
       </div>
       <div className={'row'}>
-        <div className={`col-5 card mt-5 ${styles.waitingRoom} bg-warning`}>
+        <div className={`col-5 card mt-5 ${styles.waitingRoom} bg-info`}>
           {
             displayRoom('B')
           }
